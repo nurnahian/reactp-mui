@@ -75,9 +75,15 @@ function Matarialbuttonc() {
             </Stack>
             <hr />
             <Stack direction='row'>
-                <ToggleButtonGroup>
-                    <ToggleButton >
+                <ToggleButtonGroup aria-label='text formaing'>
+                    <ToggleButton value='bold'>
                         <FormatBoldIcon/>
+                    </ToggleButton>
+                    <ToggleButton value='italic'>
+                        <FormatItalicIcon/>
+                    </ToggleButton>
+                    <ToggleButton value='underline' >
+                        <FormatUnderlinedIcon/>
                     </ToggleButton>
                 </ToggleButtonGroup>
             </Stack>
