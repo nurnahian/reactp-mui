@@ -7,7 +7,7 @@ import FormatItalicIcon from '@mui/icons-material/FormatItalic';
 import FormatUnderlinedIcon from '@mui/icons-material/FormatUnderlined';
 
 
-function Matarialbuttonc() {
+function Matarialbutton() {
 
 
 
@@ -92,4 +92,4 @@ function Matarialbuttonc() {
     )
 }
 
-export default Matarialbuttonc
+export default Matarialbutton

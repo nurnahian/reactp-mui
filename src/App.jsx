@@ -1,12 +1,18 @@
 import React from 'react'
-import './App.css'
-import Matarialbuttonc from './Matarialbuttonc'
+
+import Matarialbutton from './Matarialbutton'
+import Selector from './Selector'
+import MuiRadioButton from './MuiRadioButton'
+import MuiCheckBox from './MuiCheckBox'
 
 function App() {
 
   return (
     <>
-      <Matarialbuttonc/>
+      {/* <Matarialbutton/> */}
+      {/* <Selector/> */}
+      {/* <MuiRadioButton/> */}
+      <MuiCheckBox/>
     </>
   )
 }
