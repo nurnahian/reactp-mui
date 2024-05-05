@@ -3,6 +3,7 @@ import {
   AppBar,
   Button,
   IconButton,
+  Menu,
   Stack,
   Toolbar,
   Typography,
@@ -31,6 +32,7 @@ function MuiNavbar() {
             <Button color="inherit">About</Button>
             <Button color="inherit">Login</Button>
           </Stack>
+          <Menu></Menu>
         </Toolbar>
       </AppBar>
     </>
