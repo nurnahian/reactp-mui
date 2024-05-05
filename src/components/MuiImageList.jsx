@@ -1,4 +1,10 @@
-import { Stack, ImageList, ImageListItem, Box, ImageListItemBar } from "@mui/material";
+import {
+  Stack,
+  ImageList,
+  ImageListItem,
+  Box,
+  ImageListItemBar,
+} from "@mui/material";
 import React from "react";
 
 function MuiImageList() {
@@ -25,19 +31,20 @@ function MuiImageList() {
           <ImageList
             sx={{
               width: 500,
-                          height: 450,
-              overflowY:'scroll'
+              height: 450,
+              overflowY: "scroll",
             }}
-            variant="woven" cols={3} gap={8}
+            variant="woven"
+            cols={3}
+            gap={8}
           >
             {itemData.map((item) => (
               <ImageListItem key={item.img}>
                 <img src={`${item.img}?w160&h164&fit=crop&auto=format&dpr=2`} />
                 alt={item.title}
-                    loading="lazy"
-                    <ImageListItemBar title={item.title} />
-                </ImageListItem>
-                
+                loading="lazy"
+                <ImageListItemBar title={item.title} />
+              </ImageListItem>
             ))}
           </ImageList>
         </Box>

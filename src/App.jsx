@@ -11,6 +11,7 @@ import MuiCard from './components/MuiCard'
 import './App.css'
 import MuiAccordion from'./components/MuiAccordion'
 import MuiImageList from './components/MuiImageList'
+import MuiNavbar from './components/MuiNavbar'
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
       {/* <MuiLayout/> */}
       {/* <MuiCard/> */}
       {/* <MuiAccordion/> */}
-      <MuiImageList/>
+      {/* <MuiImageList/> */}
+      <MuiNavbar/>
     </>
   )
 }
