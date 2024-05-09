@@ -23,6 +23,13 @@ import "./App.css";
 // import MuiChip from "./components/MuiChip";
 // import MuiTable from "./components/MuiTable";
 import MuiAlert from "./components/MuiAlert";
+import MuiSnackbar from "./components/MuiSnackbar";
+import MuiDialog from "./components/MuiDialog";
+import MuiProgress from "./components/MuiProgress";
+import MuiSkeleton from "./components/MuiSkeleton";
+import MuiSkeletonAPI from "./components/MuiSkeletonAPI";
+import MuiLodingButton from "./components/MuiLodingButton";
+import MuiPicker from "./components/MuiPicker";
 
 function App() {
   return (
@@ -50,7 +57,14 @@ function App() {
       {/* <MuiList/> */}
       {/* <MuiChip/> */}
       {/* <MuiTable/> */}
-      <MuiAlert/>
+      {/* <MuiAlert/> */}
+      {/* <MuiSnackbar/> */}
+      {/* <MuiDialog/> */}
+      {/* <MuiProgress/> */}
+      {/* <MuiSkeleton/> */}
+      {/* <MuiSkeletonAPI/> */}
+      {/* <MuiLodingButton/> */}
+      <MuiPicker/>
     </>
   );
 }
