@@ -22,14 +22,16 @@ import "./App.css";
 // import MuiList from "./components/MuiList";
 // import MuiChip from "./components/MuiChip";
 // import MuiTable from "./components/MuiTable";
-import MuiAlert from "./components/MuiAlert";
-import MuiSnackbar from "./components/MuiSnackbar";
-import MuiDialog from "./components/MuiDialog";
-import MuiProgress from "./components/MuiProgress";
-import MuiSkeleton from "./components/MuiSkeleton";
-import MuiSkeletonAPI from "./components/MuiSkeletonAPI";
-import MuiLodingButton from "./components/MuiLodingButton";
-import MuiPicker from "./components/MuiPicker";
+// import MuiAlert from "./components/MuiAlert";
+// import MuiSnackbar from "./components/MuiSnackbar";
+// import MuiDialog from "./components/MuiDialog";
+// import MuiProgress from "./components/MuiProgress";
+// import MuiSkeleton from "./components/MuiSkeleton";
+// import MuiSkeletonAPI from "./components/MuiSkeletonAPI";
+// import MuiLodingButton from "./components/MuiLodingButton";
+// import MuiPicker from "./components/MuiPicker";
+import MuiDateRangePicker from "./components/MuiDateRangePicker";
+import MuiTab from "./components/MuiTab";
 
 function App() {
   return (
@@ -64,7 +66,9 @@ function App() {
       {/* <MuiSkeleton/> */}
       {/* <MuiSkeletonAPI/> */}
       {/* <MuiLodingButton/> */}
-      <MuiPicker/>
+      {/* <MuiPicker/> */}
+      {/* <MuiDateRangePicker/> */}
+      <MuiTab/>
     </>
   );
 }
