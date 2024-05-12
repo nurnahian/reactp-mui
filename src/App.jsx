@@ -32,6 +32,10 @@ import "./App.css";
 // import MuiPicker from "./components/MuiPicker";
 import MuiDateRangePicker from "./components/MuiDateRangePicker";
 import MuiTab from "./components/MuiTab";
+import MuiTimeline from "./components/MuiTimeline";
+import MuiMasonry from "./components/MuiMasonry";
+import MuiResponsiveness from "./components/MuiResponsiveness";
+
 
 function App() {
   return (
@@ -68,7 +72,10 @@ function App() {
       {/* <MuiLodingButton/> */}
       {/* <MuiPicker/> */}
       {/* <MuiDateRangePicker/> */}
-      <MuiTab/>
+      {/* <MuiTab/> */}
+      {/* <MuiTimeline/> */}
+      {/* <MuiMasonry /> */}
+      <MuiResponsiveness/>
     </>
   );
 }
